@@ -1,5 +1,36 @@
 import { Node } from "./Node.js";
 
+/**
+ * A linked list is a linear data structure, in which the elements are not
+ * stored at contiguous memory locations. It consists of nodes where each node
+ * contains a data field and a reference to the next node in the list.
+ *
+ * The first node of the list is called the head, and the last node of the list
+ * is called the tail. We are using the tail to make the append operation O(1).
+ *
+ * The prepend operation is also O(1) because we are using the head to make the
+ * operation.
+ *
+ * The removeAt operation is O(n) because we need to traverse the list to find
+ * the node at the given index.
+ *
+ * The get operation is O(n) because we need to traverse the list to find the
+ * node at the given index.
+ *
+ * The size operation is O(1) because we are storing the size of the list in a
+ * variable.
+ *
+ * The space complexity of a linked list is O(n) because we are storing n nodes
+ * in memory.
+ *
+ * The linked list is a good choice when we need to insert or remove elements
+ * from the beginning of the list. It is also a good choice when we need to
+ * insert or remove elements from the end of the list.
+ *
+ * The linked list is not a good choice when we need to access elements at
+ * random indexes. It is also not a good choice when we need to iterate over
+ * the list in reverse order.
+ */
 export class LinkedList<T> {
   #head: Node<T> | null = null;
   #tail: Node<T> | null = null;

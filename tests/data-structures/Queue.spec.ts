@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { Queue } from "../src/Queue.js";
+import { Queue } from "../../src/data-structures/Queue.js";
 
 describe("Queue", () => {
   let queue: Queue<number>;

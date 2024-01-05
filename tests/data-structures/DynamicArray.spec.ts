@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { DynamicArray } from "../src/DynamicArray.js";
+import { DynamicArray } from "../../src/data-structures/DynamicArray.js";
 
 describe("DynamicArray", () => {
   let array: DynamicArray<number>;
