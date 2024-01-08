@@ -9,14 +9,11 @@
  * part. This is done by shifting all the elements that are larger than the
  * value to be sorted.
  *
- * The insertion sort algorithm has a quadratic time complexity in the average
- * and worst cases. However, it is one of the fastest algorithms for sorting
- * very small arrays, even faster than quicksort; this is due to its low
- * overhead. For these reasons, and because it is also stable, insertion sort
- * is often used as the recursive base case (when the problem size is small)
- * for higher overhead divide-and-conquer sorting algorithms, such as
- * quicksort or merge sort.
- *
+ * - Time complexity (worst): O(n^2)
+ * - Time complexity (average): O(n^2)
+ * - Time complexity (best): O(n)
+ * - Space complexity (worst): O(1)
+ * - Stable: Yes
  */
 export function insertionSort<T>(
   array: T[],
