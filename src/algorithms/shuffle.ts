@@ -1,3 +1,6 @@
+import { randomIntInRange } from "../helpers/random.js";
+import { swap } from "../helpers/swap.js";
+
 /**
  * Fisher-Yates or Knuth shuffle algorithm
  *
@@ -16,15 +19,8 @@ export function shuffle<T>(array: T[]): T[] {
   for (let i = 0; i < array.length; i++) {
     const randIndex = randomIntInRange(i, array.length - 1);
 
-    const tmp = array[randIndex];
-    array[randIndex] = array[i];
-    array[i] = tmp;
+    swap(array, i, randIndex);
   }
 
   return array;
-}
-
-// Generates a random integer between m and n (inclusive)
-export function randomIntInRange(m: number, n: number): number {
-  return Math.floor(Math.random() * (n - m + 1)) + m;
 }

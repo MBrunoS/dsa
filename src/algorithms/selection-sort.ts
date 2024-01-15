@@ -1,3 +1,5 @@
+import { swap } from "../helpers/swap.js";
+
 /**
  * Selection sort is an in-place comparison sorting algorithm that divides the
  * input list into two parts: the sublist of items already sorted, which is built
@@ -34,9 +36,7 @@ export function selectionSort<T>(
 
     // If the smallest item is not the current item, swap them
     if (minIndex != i) {
-      const tmp = array[minIndex];
-      array[minIndex] = array[i];
-      array[i] = tmp;
+      swap(array, minIndex, i);
     }
   }
 

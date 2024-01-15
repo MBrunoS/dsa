@@ -1,3 +1,5 @@
+import { swap } from "../helpers/swap.js";
+
 /**
  * Insertion sort is a simple sorting algorithm that builds the final sorted
  * array (or list) one item at a time. It works by comparing each item in the
@@ -26,9 +28,7 @@ export function insertionSort<T>(
     for (let j = i; j > 0; j--) {
       // If the current item is smaller than the previous one, swap them
       if (compareFn(array[j], array[j - 1]) < 0) {
-        const tmp = array[j];
-        array[j] = array[j - 1];
-        array[j - 1] = tmp;
+        swap(array, j, j - 1);
       } else {
         // If the current item is greater than the previous one, it means that
         // the array is sorted and we can stop
