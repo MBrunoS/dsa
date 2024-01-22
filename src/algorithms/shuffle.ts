@@ -1,5 +1,5 @@
-import { randomIntInRange } from "../helpers/random.js";
-import { swap } from "../helpers/swap.js";
+import { randomIntInRange } from "./helpers/random.js";
+import { swap } from "./helpers/swap.js";
 
 /**
  * Fisher-Yates or Knuth shuffle algorithm
