@@ -11,7 +11,7 @@ O principal objetivo deste repositório é me ajudar a aprender e entender os co
 ## Estruturas de Dados
 
 - [Array Dinâmico](/src/data-structures/dynamic-array/README.pt-br.md)
-- [Lista Ligada](/src/data-structures/linked-list/README.pt-br.md)
+- [Lista Encadeada](/src/data-structures/linked-list/README.pt-br.md)
 - [Pilha](/src/data-structures/stack/README.pt-br.md)
 - [Fila](/src/data-structures/queue/README.pt-br.md)
 
