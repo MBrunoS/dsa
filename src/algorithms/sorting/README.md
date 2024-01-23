@@ -3,10 +3,10 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](./README.pt-br.md)
 
-- [Selection Sort](./selection-sort)
-- [Insertion Sort](./insertion-sort)
-- [Merge Sort](./merge-sort)
-- [Quick Sort](./quick-sort)
+- [Selection Sort](./selection-sort/README.md)
+- [Insertion Sort](./insertion-sort/README.md)
+- [Merge Sort](./merge-sort/README.md)
+- [Quick Sort](./quick-sort/README.md)
 
 ## Implementation Details
 
@@ -23,3 +23,5 @@ type CompareFunction<T> = (a: T, b: T) => number;
 ```
 
 With this approach, the sorting algorithms can be used to sort arrays of any type, as long as the comparison function is implemented correctly.
+
+[Return to main page](../../../README.md)

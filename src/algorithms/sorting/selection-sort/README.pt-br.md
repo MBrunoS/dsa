@@ -14,6 +14,8 @@ O algoritmo divide o array de entrada em duas partes: uma seção ordenada e uma
 4. Mova a fronteira entre as seções ordenada e não ordenada para a direita.
 5. Repita os passos 2-4 até que todo o array esteja ordenado.
 
+[Código-fonte](./selection-sort.ts)
+
 ## Complexidade de Tempo
 
 | Caso   | Complexidade |
@@ -33,3 +35,7 @@ O algoritmo divide o array de entrada em duas partes: uma seção ordenada e uma
 ## Estabilidade
 
 O algoritmo não é estável, pois pode alterar a ordem relativa de elementos iguais.
+
+[Próxima seção (Insertion Sort)](../insertion-sort/README.pt-br.md)
+
+[Retornar à página principal](../../../README.pt-br.md)

@@ -14,6 +14,8 @@ O algoritmo funciona dividindo o array de entrada em duas partes: uma seção or
 4. Repita esse processo até que o elemento esteja na posição ordenada correta.
 5. Mova para o próximo elemento na seção não ordenada e repita os passos 2-4 até que todo o array esteja ordenado.
 
+[Código-fonte](./insertion-sort.ts)
+
 ## Complexidade de Tempo
 
 | Caso   | Complexidade |
@@ -33,3 +35,8 @@ O algoritmo funciona dividindo o array de entrada em duas partes: uma seção or
 ## Estabilidade
 
 O algoritmo é estável, pois preserva a ordem de elementos iguais.
+
+[Seção anterior (Selection Sort)](../selection-sort/README.pt-br.md) \
+[Próxima seção (Merge Sort)](../merge-sort/README.pt-br.md)
+
+[Retornar à página principal](../../../README.pt-br.md)

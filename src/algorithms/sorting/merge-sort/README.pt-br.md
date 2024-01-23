@@ -17,6 +17,8 @@ O algoritmo divide o array de entrada em duas metades, chama a si mesmo para as 
    2.5. Copie os elementos ordenados do array temporário para o array original.
 3. Repita o processo até que o array inteiro esteja ordenado.
 
+[Código-fonte](./merge-sort.ts)
+
 ## Complexidade de Tempo
 
 | Caso   | Complexidade |
@@ -36,3 +38,8 @@ O algoritmo divide o array de entrada em duas metades, chama a si mesmo para as 
 ## Estabilidade
 
 O algoritmo é estável, pois preserva a ordem de elementos iguais.
+
+[Seção anterior (Insertion Sort)](../insertion-sort/README.pt-br.md) \
+[Próxima seção (Quick Sort)](../quick-sort/README.pt-br.md)
+
+[Retornar à página principal](../../../README.pt-br.md)

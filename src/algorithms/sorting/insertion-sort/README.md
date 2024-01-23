@@ -15,6 +15,8 @@ The algorithm works by dividing the input array into two parts: a sorted section
 4. Repeat this process until the element is in its correct sorted position.
 5. Move to the next element in the unsorted section and repeat steps 2-4 until the entire array is sorted.
 
+[Source code](./insertion-sort.ts)
+
 ## Time Complexity
 
 | Case    | Complexity |
@@ -34,3 +36,8 @@ The algorithm works by dividing the input array into two parts: a sorted section
 ## Stability
 
 The algorithm is stable, as it preserves the order of equal elements.
+
+[Previous section (Selection Sort)](../selection-sort/README.md) \
+[Next section (Merge Sort)](../merge-sort/README.md)
+
+[Return to main page](../../../README.md)

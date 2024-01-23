@@ -13,6 +13,8 @@ A queue is useful when the order of items is important. For example, a queue can
 
 A queue can be implemented using a linked list or an array. In this repository, the queue is implemented using a linked list.
 
+[Source code](./Queue.ts)
+
 ## Time Complexity
 
 On worst case, the time complexity of the following operations is:
@@ -25,3 +27,8 @@ On worst case, the time complexity of the following operations is:
 ## Space Complexity
 
 The space complexity of a queue is O(n), where n is the number of elements in the queue.
+
+[Previous section (Stack)](../stack/README.md) \
+[Next section (Sorting)](../../algorithms/sorting/README.md)
+
+[Return to main page](../../../README.md)

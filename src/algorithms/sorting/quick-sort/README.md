@@ -14,6 +14,8 @@ The algorithm selects a pivot element from the array and partitions the other el
 3. Recursively apply the quick sort to each sub-array.
 4. Concatenate the sorted sub-arrays, including the pivot, to produce the final sorted array.
 
+[Source code](./quick-sort.ts)
+
 ## Time Complexity
 
 | Case    | Complexity |
@@ -45,3 +47,8 @@ Quick sort is not stable, as it may change the relative order of equal elements.
 - The algorithm can be implemented in-place, i.e., it does not require any extra space. However, the recursive implementation requires O(log n) space for the function calls.
 - The algorithm can be implemented as a hybrid of quick sort and insertion sort. For small arrays, insertion sort is more efficient than quick sort. Therefore, the algorithm can switch to insertion sort for arrays smaller than a certain threshold.
 - A 3-way quick sort can be used to handle arrays with many duplicate elements.
+
+[Previous section (Merge Sort)](../merge-sort/README.md) \
+[Next section (Shuffling)](../../shuffling/README.md)
+
+[Return to main page](../../../README.md)

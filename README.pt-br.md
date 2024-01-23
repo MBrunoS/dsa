@@ -26,7 +26,7 @@ O principal objetivo deste repositório é me ajudar a aprender e entender os co
 
 ### Embaralhamento
 
-<!-- - [Embaralhamento Fisher-Yates](/src/algorithms/shuffling/fisher-yates-shuffle/README.pt-br.md) -->
+- [Embaralhamento Fisher-Yates](/src/algorithms/shuffling/fisher-yates/README.pt-br.md)
 
 ## Testes
 

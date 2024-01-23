@@ -1,5 +1,5 @@
 import { swap } from "../../helpers/swap.js";
-import { shuffle } from "../../shuffle.js";
+import { shuffle } from "../../shuffling/fisher-yates/shuffle.js";
 
 export function quickSort<T>(array: T[], compare: (a: T, b: T) => number): T[] {
   shuffle(array);

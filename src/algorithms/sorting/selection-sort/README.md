@@ -15,6 +15,8 @@ The algorithm divides the input array into two parts: a sorted section and an un
 4. Move the boundary between the sorted and unsorted sections to the right.
 5. Repeat steps 2-4 until the entire array is sorted.
 
+[Source code](./selection-sort.ts)
+
 ## Time Complexity
 
 | Case    | Complexity |
@@ -34,3 +36,7 @@ The algorithm divides the input array into two parts: a sorted section and an un
 ## Stability
 
 The algorithm is not stable, as it may change the relative order of equal elements.
+
+[Next section (Insertion Sort)](../insertion-sort/README.md)
+
+[Return to main page](../../../README.md)

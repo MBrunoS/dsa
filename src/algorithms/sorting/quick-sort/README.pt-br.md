@@ -13,6 +13,8 @@ O algoritmo seleciona um elemento pivô do array e particiona os outros elemento
 3. Aplique recursivamente o quick sort a cada subarray.
 4. Concatene os subarrays ordenados, incluindo o pivô, para produzir o array final ordenado.
 
+[Código-fonte](./quick-sort.ts)
+
 ## Complexidade de Tempo
 
 | Caso   | Complexidade |
@@ -44,3 +46,8 @@ O quick sort não é estável, pois pode alterar a ordem relativa de elementos i
 - O algoritmo pode ser implementado in-place, ou seja, não requer espaço extra. No entanto, a implementação recursiva requer espaço O(log n) para as chamadas de função.
 - O algoritmo pode ser implementado como uma combinação de quick sort e insertion sort. Para arrays pequenos, o insertion sort é mais eficiente que o quick sort. Portanto, o algoritmo pode alternar para o insertion sort para arrays menores que um determinado limiar.
 - Um quick sort de 3 vias pode ser usado para lidar com arrays com muitos elementos duplicados.
+
+[Seção anterior (Merge Sort)](../merge-sort/README.pt-br.md) \
+[Próxima seção (Embaralhamento)](../../shuffling/README.pt-br.md)
+
+[Retornar à página principal](../../../README.pt-br.md)

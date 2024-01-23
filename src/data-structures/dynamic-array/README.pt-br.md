@@ -14,6 +14,8 @@ Por baixo dos panos, um array dinâmico é implementado usando um array estátic
 
 O mesmo se aplica quando o array é reduzido. Se o array estiver menos de 25% cheio, então seu tamanho é reduzido pela metade. Esta também é uma operação cara, pois requer a alocação de um novo array e a cópia de todos os elementos do array antigo para o novo array.
 
+[Código-fonte](./DynamicArray.ts)
+
 ## Complexidade de Tempo
 
 No pior caso, a complexidade de tempo das seguintes operações é:
@@ -39,3 +41,7 @@ Isso ocorre porque a complexidade de tempo amortizada das operações `push` e `
 ## Complexidade de Espaço
 
 A complexidade de espaço de um array dinâmico é O(n), onde n é o número de elementos no array.
+
+[Próxima seção (Lista Encadeada)](../linked-list/README.pt-br.md)
+
+[Retornar à página principal](../../../README.pt-br.md)

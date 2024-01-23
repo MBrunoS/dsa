@@ -14,6 +14,8 @@ Uma lista encadeada é implementada usando nós. Cada nó consiste em duas parte
 
 O primeiro nó de uma lista encadeada é chamado de cabeça. O último nó de uma lista encadeada é chamado de cauda. O nó da cauda aponta para nulo, indicando o final da lista encadeada.
 
+[Código-fonte](./LinkedList.ts)
+
 ## Complexidade de Tempo
 
 No pior caso, a complexidade de tempo das seguintes operações é:
@@ -28,3 +30,8 @@ No pior caso, a complexidade de tempo das seguintes operações é:
 ## Complexidade de Espaço
 
 A complexidade de espaço de uma lista encadeada é O(n), onde n é o número de elementos na lista encadeada.
+
+[Seção anterior (Array Dinâmico)](../dynamic-array/README.pt-br.md) \
+[Próxima seção (Pilha)](../stack/README.pt-br.md)
+
+[Retornar à página principal](../../../README.pt-br.md)

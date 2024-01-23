@@ -13,6 +13,8 @@ A stack is useful when the order of items is important. For example, a stack can
 
 A stack can be implemented using a linked list or an array. In this repository, the stack is implemented using a linked list.
 
+[Source code](./Stack.ts)
+
 ## Time Complexity
 
 On worst case, the time complexity of the following operations is:
@@ -25,3 +27,8 @@ On worst case, the time complexity of the following operations is:
 ## Space Complexity
 
 The space complexity of a stack is O(n), where n is the number of elements in the stack.
+
+[Previous section (Linked List)](../linked-list/README.md) \
+[Next section (Queue)](../queue/README.md)
+
+[Return to main page](../../../README.md)

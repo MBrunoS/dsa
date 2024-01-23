@@ -15,6 +15,8 @@ A linked list is implemented using nodes. Each node consists of two parts: data 
 
 The first node of a linked list is called the head. The last node of a linked list is called the tail. The tail node points to null, indicating the end of the linked list.
 
+[Source code](./LinkedList.ts)
+
 ## Time Complexity
 
 On worst case, the time complexity of the following operations is:
@@ -29,3 +31,8 @@ On worst case, the time complexity of the following operations is:
 ## Space Complexity
 
 The space complexity of a linked list is O(n), where n is the number of elements in the linked list.
+
+[Previous section (Dynamic Array)](../dynamic-array/README.md) \
+[Next section (Stack)](../stack/README.md)
+
+[Return to main page](../../../README.md)

@@ -11,23 +11,23 @@ The main purpose of this repository is to help me learn and understand the conce
 
 ## Data Structures
 
-- [Dynamic Array](./src/data-structures/dynamic-array)
-- [Linked List](./src/data-structures/linked-list)
-- [Stack](./src/data-structures/stack)
-- [Queue](./src/data-structures/queue)
+- [Dynamic Array](./src/data-structures/dynamic-array/README.md)
+- [Linked List](./src/data-structures/linked-list/README.md)
+- [Stack](./src/data-structures/stack/README.md)
+- [Queue](./src/data-structures/queue/README.md)
 
 ## Algorithms
 
 ### Sorting
 
-- [Selection Sort](./src/algorithms/sorting/selection-sort)
-- [Insertion Sort](./src/algorithms/sorting/insertion-sort)
-- [Merge Sort](./src/algorithms/sorting/merge-sort)
-- [Quick Sort](./src/algorithms/sorting/quick-sort)
+- [Selection Sort](./src/algorithms/sorting/selection-sort/README.md)
+- [Insertion Sort](./src/algorithms/sorting/insertion-sort/README.md)
+- [Merge Sort](./src/algorithms/sorting/merge-sort/README.md)
+- [Quick Sort](./src/algorithms/sorting/quick-sort/README.md)
 
 ### Shuffling
 
-<!-- - [Fisher-Yates Shuffle](./src/algorithms/shuffling/fisher-yates-shuffle) -->
+- [Fisher-Yates Shuffle](./src/algorithms/shuffling/fisher-yates/README.md)
 
 ## Tests
 

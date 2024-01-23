@@ -15,6 +15,8 @@ Under the hood, a dynamic array is implemented using a static array. When the ar
 
 The same applies when the array is shrunk. If the array is less than 25% full, then its size is reduced by a factor of 2. This is also an expensive operation, as it requires allocating a new array and copying all the elements from the old array to the new array.
 
+[Source code](./DynamicArray.ts)
+
 ## Time Complexity
 
 On worst case, the time complexity of the following operations is:
@@ -40,3 +42,7 @@ This is because the amortized time complexity of the `push` and `pop` operations
 ## Space Complexity
 
 The space complexity of a dynamic array is O(n), where n is the number of elements in the array.
+
+[Next section (Linked List)](../linked-list/README.md)
+
+[Return to main page](../../../README.md)

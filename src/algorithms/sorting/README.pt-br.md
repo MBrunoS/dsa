@@ -22,3 +22,5 @@ type CompareFunction<T> = (a: T, b: T) => number;
 ```
 
 Com essa abordagem, os algoritmos de ordenação podem ser usados para ordenar arrays de qualquer tipo, desde que a função de comparação seja implementada corretamente.
+
+[Retornar à página principal](../../../README.pt-br.md)

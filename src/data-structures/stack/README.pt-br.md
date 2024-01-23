@@ -12,6 +12,8 @@ Uma pilha é útil quando a ordem dos itens é importante. Por exemplo, uma pilh
 
 Uma pilha pode ser implementada usando uma lista encadeada ou um array. Neste repositório, a pilha é implementada usando uma lista encadeada.
 
+[Código-fonte](./Stack.ts)
+
 ## Complexidade de Tempo
 
 No pior caso, a complexidade de tempo das seguintes operações é:
@@ -24,3 +26,8 @@ No pior caso, a complexidade de tempo das seguintes operações é:
 ## Complexidade de Espaço
 
 A complexidade de espaço de uma pilha é O(n), onde n é o número de elementos na pilha.
+
+[Seção anterior (Lista Encadeada)](../linked-list/README.pt-br.md) \
+[Próxima seção (Fila)](../queue/README.pt-br.md)
+
+[Retornar à página principal](../../../README.pt-br.md)

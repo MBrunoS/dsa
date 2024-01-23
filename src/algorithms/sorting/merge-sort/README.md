@@ -18,6 +18,8 @@ The algorithm divides the input array into two halves, calls itself for the two 
    2.5. Copy the sorted elements from the temporary array to the original array.
 3. Repeat the process until the entire array is sorted.
 
+[Source code](./merge-sort.ts)
+
 ## Time Complexity
 
 | Case    | Complexity |
@@ -37,3 +39,8 @@ The algorithm divides the input array into two halves, calls itself for the two 
 ## Stability
 
 The algorithm is stable, as it preserves the order of equal elements.
+
+[Previous section (Insertion Sort)](../insertion-sort/README.md) \
+[Next section (Quick Sort)](../quick-sort/README.md)
+
+[Return to main page](../../../README.md)
