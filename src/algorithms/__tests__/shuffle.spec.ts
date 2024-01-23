@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { shuffle } from "../shuffle.js";
+import { shuffle } from "../shuffling/fisher-yates/shuffle.js";
 
-describe("shuffle", () => {
+describe("Shuffle", () => {
   it("should return an array with the same elements but in a different order", () => {
     const array = [1, 2, 3, 4, 5];
     const shuffledArray = shuffle([...array]);
