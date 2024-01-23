@@ -5,6 +5,8 @@
 
 A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers.
 
+> Linear data structures are data structures that store data in a sequential manner (one after the other). Examples of linear data structures are arrays, linked lists, stacks, and queues.
+
 > Pointers are a type of reference that points to another value stored in memory. They are used to store the address of another value in memory. In JavaScript/TypeScript, pointers are implemented using references.
 
 The linked list is a good choice when the number of elements is not known in advance, when the number of elements is expected to change frequently, and when random access is not required. For example, a linked list is a good choice for implementing a queue or a stack.

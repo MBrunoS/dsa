@@ -4,6 +4,8 @@
 
 Uma lista encadeada é uma estrutura de dados linear na qual os elementos não são armazenados em locais contíguos na memória. Os elementos em uma lista encadeada são conectados usando ponteiros.
 
+> Estruturas de dados lineares são estruturas de dados que armazenam dados de forma sequencial (um após o outro). Exemplos de estruturas de dados lineares são arrays, listas encadeadas, pilhas e filas.
+
 > Ponteiros são um tipo de referência que aponta para outro valor armazenado na memória. Eles são usados para armazenar o endereço de outro valor na memória. Em JavaScript/TypeScript, ponteiros são implementados usando referências.
 
 A lista encadeada é uma boa escolha quando o número de elementos não é conhecido antecipadamente, quando se espera que o número de elementos mude frequentemente e quando o acesso aleatório não é necessário. Por exemplo, uma lista encadeada é uma boa escolha para implementar uma fila ou uma pilha.
