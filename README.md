@@ -31,10 +31,18 @@ The main purpose of this repository is to help me learn and understand the conce
 
 ## Tests
 
-To run the tests, run the following command:
+To run the tests, first install the dependencies, then run `npm test`:
 
 ```bash
+npm install
 npm test
+```
+
+Or, if you prefer, you can run it using Docker:
+
+```bash
+docker build -t dsa .
+docker run -it dsa
 ```
 
 ## Contributing

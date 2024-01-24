@@ -30,10 +30,18 @@ O principal objetivo deste repositório é me ajudar a aprender e entender os co
 
 ## Testes
 
-Para executar os testes, execute o seguinte comando:
+Para executar os testes, primeiro instale as dependências, depois execute `npm test`:
 
 ```bash
+npm install
 npm test
+```
+
+Ou, se preferir, você pode executá-lo usando o Docker:
+
+```bash
+docker build -t dsa .
+docker run -it dsa
 ```
 
 ## Contribuindo
