@@ -26,8 +26,8 @@ function partition<T>(
   left: number,
   right: number
 ): number {
-  let i = left + 1,
-    j = right;
+  let i = left,
+    j = right + 1;
 
   // Since the array is shuffled (randomized), we choose the first element
   // (array[left]) as the pivot. The goal is to put the pivot in its final place
@@ -37,14 +37,12 @@ function partition<T>(
   // the pivot in its final place and return its index.
   while (true) {
     // Find item on the left to swap
-    while (compare(array[i], array[left]) < 0) {
-      i++;
+    while (compare(array[++i], array[left]) < 0) {
       if (i == right) break;
     }
 
     // Find item on the right to swap
-    while (compare(array[j], array[left]) > 0) {
-      j--;
+    while (compare(array[--j], array[left]) > 0) {
       if (j == left) break;
     }
 
