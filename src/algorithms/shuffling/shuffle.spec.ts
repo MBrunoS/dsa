@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { shuffle } from "../shuffling/fisher-yates/shuffle.js";
+import { shuffle } from "./fisher-yates/shuffle.js";
 
 describe("Shuffle", () => {
   it("should return an array with the same elements but in a different order", () => {

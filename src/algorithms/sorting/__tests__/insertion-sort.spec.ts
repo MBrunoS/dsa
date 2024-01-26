@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { insertionSort } from "../sorting/insertion-sort/insertion-sort.js";
+import { insertionSort } from "../insertion-sort/insertion-sort.js";
 
 describe("insertionSort", () => {
   it("should sort an array of numbers in ascending order", () => {

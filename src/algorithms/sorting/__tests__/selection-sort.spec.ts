@@ -1,12 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { quickSort } from "../sorting/quick-sort/quick-sort.js";
+import { selectionSort } from "../selection-sort/selection-sort.js";
 
-describe("quickSort", () => {
+describe("selectionSort", () => {
   it("should sort an array of numbers in ascending order", () => {
     const array = [5, -2, 4, -6, 1, 3];
     const compare = (a: number, b: number) => a - b;
 
-    quickSort(array, compare);
+    selectionSort(array, compare);
 
     expect(array).toEqual([-6, -2, 1, 3, 4, 5]);
   });
@@ -15,7 +15,7 @@ describe("quickSort", () => {
     const array = [5, 2, 4, 6, 1, 3];
     const compare = (a: number, b: number) => b - a;
 
-    quickSort(array, compare);
+    selectionSort(array, compare);
 
     expect(array).toEqual([6, 5, 4, 3, 2, 1]);
   });
@@ -24,7 +24,7 @@ describe("quickSort", () => {
     const array = ["banana", "apple", "cherry", "date"];
     const compare = (a: string, b: string) => a.localeCompare(b);
 
-    quickSort(array, compare);
+    selectionSort(array, compare);
 
     expect(array).toEqual(["apple", "banana", "cherry", "date"]);
   });
@@ -33,7 +33,7 @@ describe("quickSort", () => {
     const array = ["banana", "apple", "cherry", "date"];
     const compare = (a: string, b: string) => b.localeCompare(a);
 
-    quickSort(array, compare);
+    selectionSort(array, compare);
 
     expect(array).toEqual(["date", "cherry", "banana", "apple"]);
   });
@@ -48,7 +48,7 @@ describe("quickSort", () => {
     const compare = (a: { count: number }, b: { count: number }) =>
       a.count - b.count;
 
-    quickSort(array, compare);
+    selectionSort(array, compare);
 
     expect(array).toEqual([
       { name: "cherry", count: 1 },
@@ -62,7 +62,7 @@ describe("quickSort", () => {
     const array: number[] = [];
     const compare = (a: number, b: number) => a - b;
 
-    quickSort(array, compare);
+    selectionSort(array, compare);
 
     expect(array).toEqual([]);
   });
@@ -71,7 +71,7 @@ describe("quickSort", () => {
     const array = [5];
     const compare = (a: number, b: number) => a - b;
 
-    quickSort(array, compare);
+    selectionSort(array, compare);
 
     expect(array).toEqual([5]);
   });
