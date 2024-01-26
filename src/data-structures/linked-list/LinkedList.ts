@@ -1,22 +1,21 @@
 class Node<T> {
   value: T;
-  next: Node<T> | null;
+  next?: Node<T>;
 
   constructor(value: T) {
     this.value = value;
-    this.next = null;
   }
 }
 
 export class LinkedList<T> {
-  #head: Node<T> | null = null;
-  #tail: Node<T> | null = null;
+  #head?: Node<T>;
+  #tail?: Node<T>;
   #size = 0;
 
   append(value: T): void {
     const item = new Node(value);
 
-    if (this.#tail == null) {
+    if (this.#tail === undefined) {
       this.#head = item;
       this.#tail = item;
     } else {
@@ -28,21 +27,21 @@ export class LinkedList<T> {
   }
 
   prepend(value: T): void {
-    const node = new Node(value);
+    const item = new Node(value);
 
-    if (!this.#head) {
-      this.#head = node;
-      this.#tail = node;
+    if (this.#head === undefined) {
+      this.#head = item;
+      this.#tail = item;
     } else {
-      node.next = this.#head;
-      this.#head = node;
+      item.next = this.#head;
+      this.#head = item;
     }
 
     this.#size++;
   }
 
-  removeAt(index: number): T | null {
-    if (this.#head == null || index < 0 || index >= this.#size) return null;
+  removeAt(index: number): T | undefined {
+    if (this.#head == null || index < 0 || index >= this.#size) return;
 
     let value: T;
 
@@ -60,8 +59,8 @@ export class LinkedList<T> {
     return value;
   }
 
-  get(index: number): Node<T> | null {
-    if (index < 0 || index >= this.#size) return null;
+  get(index: number): Node<T> | undefined {
+    if (index < 0 || index >= this.#size) return;
 
     let current = this.#head;
 

@@ -33,7 +33,7 @@ describe("Queue", () => {
 
   it("should return null when dequeuing from an empty queue", () => {
     const dequeuedItem = queue.dequeue();
-    expect(dequeuedItem).toBeNull();
+    expect(dequeuedItem).toBeUndefined();
   });
 
   it("should return the correct size", () => {

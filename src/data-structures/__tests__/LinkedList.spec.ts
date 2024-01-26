@@ -39,12 +39,12 @@ describe("LinkedList", () => {
     linkedList.append(1);
     linkedList.append(2);
     const removedItem = linkedList.removeAt(5);
-    expect(removedItem).toBeNull();
+    expect(removedItem).toBeUndefined();
   });
 
   it("should return null when removing from an empty list", () => {
     const removedItem = linkedList.removeAt(0);
-    expect(removedItem).toBeNull();
+    expect(removedItem).toBeUndefined();
   });
 
   it("should get items from the list", () => {
@@ -55,13 +55,13 @@ describe("LinkedList", () => {
   });
 
   it("should return null when getting an out-of-bounds index", () => {
-    expect(linkedList.get(0)).toBeNull();
-    expect(linkedList.get(-1)).toBeNull();
-    expect(linkedList.get(10)).toBeNull();
+    expect(linkedList.get(0)).toBeUndefined();
+    expect(linkedList.get(-1)).toBeUndefined();
+    expect(linkedList.get(10)).toBeUndefined();
   });
 
   it("should return null when getting from an empty list", () => {
-    expect(linkedList.get(0)).toBeNull();
+    expect(linkedList.get(0)).toBeUndefined();
   });
 
   it("should correctly insert and remove items", () => {

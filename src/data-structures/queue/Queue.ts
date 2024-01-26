@@ -1,22 +1,21 @@
 export class Node<T> {
   value: T;
-  next: Node<T> | null;
+  next?: Node<T>;
 
   constructor(value: T) {
     this.value = value;
-    this.next = null;
   }
 }
 
 export class Queue<T> {
-  #head: Node<T> | null = null;
-  #tail: Node<T> | null = null;
+  #head?: Node<T>;
+  #tail?: Node<T>;
   #size = 0;
 
   enqueue(value: T): void {
     const item = new Node(value);
 
-    if (this.#tail == null) {
+    if (this.#tail === undefined) {
       this.#head = item;
       this.#tail = item;
     } else {
@@ -27,8 +26,8 @@ export class Queue<T> {
     this.#size++;
   }
 
-  dequeue(): T | null {
-    if (this.#head == null) return null;
+  dequeue(): T | undefined {
+    if (this.#head === undefined) return;
 
     const oldHead = this.#head;
 
